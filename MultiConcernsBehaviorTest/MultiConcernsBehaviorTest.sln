@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiConcernsBehaviorTest", "MultiConcernsBehaviorTest\MultiConcernsBehaviorTest.csproj", "{1714B26D-7502-423A-A916-08690DDCAF53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP.Utilities", "NP.Utilities\NP.Utilities.csproj", "{503D6544-570D-4E07-9101-0F574624CB49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP.Utilities", "..\NP.Utilities\NP.Utilities.csproj", "{503D6544-570D-4E07-9101-0F574624CB49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

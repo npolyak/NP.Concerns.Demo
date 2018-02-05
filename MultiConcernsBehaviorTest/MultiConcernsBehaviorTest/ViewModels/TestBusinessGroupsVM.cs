@@ -13,7 +13,7 @@ namespace MultiConcernsTest.ViewModels
             // build some test data
             BusinessGroupVM businessGroup1 = new BusinessGroupVM
             {
-                Name = "Astrologes"
+                Name = "Astrologists"
             };
 
             businessGroup1.People.Add(new PersonVM { FirstName = "Joe", LastName = "Doe" });
