@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiConcernsBehaviorTest", "MultiConcernsBehaviorTest\MultiConcernsBehaviorTest.csproj", "{1714B26D-7502-423A-A916-08690DDCAF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP.Utilities", "NP.Utilities\NP.Utilities.csproj", "{503D6544-570D-4E07-9101-0F574624CB49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1714B26D-7502-423A-A916-08690DDCAF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1714B26D-7502-423A-A916-08690DDCAF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1714B26D-7502-423A-A916-08690DDCAF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1714B26D-7502-423A-A916-08690DDCAF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503D6544-570D-4E07-9101-0F574624CB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503D6544-570D-4E07-9101-0F574624CB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503D6544-570D-4E07-9101-0F574624CB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503D6544-570D-4E07-9101-0F574624CB49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC490B8-ACB3-4FDB-9CA6-88900B067359}
+	EndGlobalSection
+EndGlobal

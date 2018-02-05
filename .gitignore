@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MultiConcernsBehaviorTest/.vs
+/MultiConcernsBehaviorTest/MultiConcernsBehaviorTest/bin/Debug
+/MultiConcernsBehaviorTest/MultiConcernsBehaviorTest/obj/Debug
+/MultiConcernsBehaviorTest/NP.Utilities/bin/Debug
+/MultiConcernsBehaviorTest/NP.Utilities/obj/Debug
+/MultiConcernsBehaviorTest/NP.Utilities
+/MultiConcernsTest/.vs
+/MultiConcernsTest/MultiConcernsTest/bin/Debug
+/MultiConcernsTest/MultiConcernsTest/obj/Debug
+/MultiConcernsTest/NP.Utilities/obj/Debug
+/MultiConcernsTest/NP.Utilities/bin/Debug
+/MultiConcernsTest/NP.Utilities
