@@ -7,13 +7,10 @@
         Title="MainWindow" 
         Height="300" Width="300">
     <Grid>
-        <Grid.Resources>
-            <viewModels:TestBusinessGroupsVM x:Key="AllBusinessGroups"/>
-        </Grid.Resources>
         <ItemsControl x:Name="BusinessGroups"
                       HorizontalAlignment="Center"
                       VerticalAlignment="Top"
-                      ItemsSource="{Binding Source={StaticResource AllBusinessGroups}}"
+                      ItemsSource="{Binding}"
                       Margin="20">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>

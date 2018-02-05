@@ -65,7 +65,6 @@
     <Compile Include="ViewModels\BusinessGroupVM.cs" />
     <Compile Include="ViewModels\PersonVM.cs" />
     <Compile Include="ViewModels\BusinessGroupsVM.cs" />
-    <Compile Include="ViewModels\TestBusinessGroupsVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
