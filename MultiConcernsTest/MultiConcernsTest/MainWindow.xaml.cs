@@ -48,6 +48,7 @@ namespace MultiConcernsTest
 
             businessGroups.Add(businessGroup2);
 
+            // assign business groups to be the DataContext. 
             this.DataContext = businessGroups;
         }
     }
