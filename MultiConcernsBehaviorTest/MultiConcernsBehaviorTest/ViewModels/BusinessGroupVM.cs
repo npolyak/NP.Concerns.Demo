@@ -75,11 +75,5 @@ namespace MultiConcernsTest.ViewModels
             _parentChildSelectionBehavior.Parent = this;
             _parentChildSelectionBehavior.Children = this.People;
         }
-
-        private void Person_IsSelectedChanged(ISelectableItem<PersonVM> person)
-        {
-            if (person.IsSelected)
-                this.IsSelected = true;
-        }
     }
 }
