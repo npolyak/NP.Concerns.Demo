@@ -84,6 +84,8 @@ namespace MultiConcernsTest.ViewModels
             this.People.Remove((PersonVM) person);
         }
 
+        // unselect all persons under the business group
+        // once the business group is unselected
         private void BusinessGroupVM_IsSelectedChanged(ISelectableItem<BusinessGroupVM> businessGroup)
         {
             if (!this.IsSelected)
@@ -91,10 +93,17 @@ namespace MultiConcernsTest.ViewModels
                 // this will also set all the 
                 // all the Person objects within 
                 // People collection into not-selected state.
-                this.People.TheSelectedItem = null;
+                foreach(PersonVM personVM in this.People)
+                {
+                    personVM.IsSelected = false;
+                }
             }
         }
 
+        /// <summary>
+        /// select BusinessGroupVM when person is selected
+        /// </summary>
+        /// <param name="person"></param>
         private void Person_IsSelectedChanged(ISelectableItem<PersonVM> person)
         {
             if (person.IsSelected)
