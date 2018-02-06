@@ -65,23 +65,15 @@ namespace MultiConcernsTest.ViewModels
         ParentChildSelectionBehavior<BusinessGroupVM, PersonVM> _parentChildSelectionBehavior =
             new ParentChildSelectionBehavior<BusinessGroupVM, PersonVM>();
 
-        IDisposable _behaviorsDisposable;
+        RemovableCollectionBehavior _removableCollectionBehavior =
+            new RemovableCollectionBehavior();
+
         public BusinessGroupVM()
         {
-            _behaviorsDisposable = 
-                this.People.AddBehavior // remove behavior
-                (
-                    (person) => person.RemoveEvent += Person_RemoveEvent,
-                    (person) => person.RemoveEvent -= Person_RemoveEvent
-                );
+            _removableCollectionBehavior.TheCollection = this.People;
 
             _parentChildSelectionBehavior.Parent = this;
             _parentChildSelectionBehavior.Children = this.People;
-        }
-
-        private void Person_RemoveEvent(IRemovable person)
-        {
-            this.People.Remove((PersonVM) person);
         }
 
         private void Person_IsSelectedChanged(ISelectableItem<PersonVM> person)

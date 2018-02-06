@@ -10,20 +10,12 @@ namespace MultiConcernsTest.ViewModels
 {
     public class BusinessGroupsVM : SingleSelectionObservableCollection<BusinessGroupVM>
     {
-        IDisposable _behaviorsDisposable;
+        RemovableCollectionBehavior _removableCollectionBehavior =
+            new RemovableCollectionBehavior();
+
         public BusinessGroupsVM()
         {
-            _behaviorsDisposable =
-                this.AddBehavior
-                (
-                    (businessGroup) => businessGroup.RemoveEvent += BusinessGroup_RemoveEvent,
-                    (businessGroup) => businessGroup.RemoveEvent -= BusinessGroup_RemoveEvent
-                );
-        }
-
-        private void BusinessGroup_RemoveEvent(IRemovable businessGroupToRemove)
-        {
-            this.Remove((BusinessGroupVM)businessGroupToRemove);
+            _removableCollectionBehavior.TheCollection = this;
         }
     }
 }
