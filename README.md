@@ -1,5 +1,5 @@
 # NP.Concerns.Demo
-this is the sample code for https://www.codeproject.com/Articles/1228925/Separation-of-Concerns-and-Smart-Mixins-with-the-h article. 
+this is the sample code for [Separation of Concerns and Smart Mixins with the help of Roxy IoC Container and Code Generator](https://www.codeproject.com/Articles/1228925/Separation-of-Concerns-and-Smart-Mixins-with-the-h) article. 
 
 **Cloning the Repository**
 
