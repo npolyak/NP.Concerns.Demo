@@ -1,5 +1,5 @@
 # NP.Concerns.Demo
-
+this is the sample code for https://www.codeproject.com/Articles/1228925/Separation-of-Concerns-and-Smart-Mixins-with-the-h article. 
 
 **Cloning the Repository**
 
